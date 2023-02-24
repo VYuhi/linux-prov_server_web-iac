@@ -12,13 +12,13 @@ apt-get upgrade -y
 apt-get install apache2 -y
 apt-get install unzip -y
 
-#Download the upload's file and unzip:
+#Download the uploaded file and unzip:
 
 cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 unzip main.zip
 
-#copy files to /var/www/html/:
+#copying files to /var/www/html/:
 
 cd  linux-site-dio-main
 cp -R * /var/www/html/
